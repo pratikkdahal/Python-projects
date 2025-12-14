@@ -1,0 +1,55 @@
+text = "hello world"            # assign a string to a variable
+print(text)                     # print the string
+print(len(text))                # print string length
+print(text[0])                  # first character
+print(text[-1])                 # last character
+print(text[5])                  # character at index 5
+print(text[0:3])                # slice: characters hel
+print(text[3:10])                # slice: characters lo worl
+print(text[0:])
+print(text[:3])
+print(text[:])
+
+
+
+
+
+
+
+
+
+
+A dictionary maps keys to values, like a real dictionary maps words to meanings.
+
+student = {
+    "name": "Pratik",
+    "age": 20,
+    "branch": "Computer Engineering"
+}
+
+Accessing values
+print(student["name"])   # Pratik
+
+🔹 Adding or updating values
+student["age"] = 21
+student["college"] = "IOE"
+
+🔹 Removing items
+del student["age"]
+
+
+
+
+to input data: 
+
+player_choice = input("Enter a choice(rock,paper,scissors)")
+
+
+
+f strings in python:
+
+ #using f string---- f strings is used to concatenate variables and the strings together
+
+
+  use this----print(f"You chose {player}, Computer chose {computer}")
+  intesd of----print( "You chose " + player + ", Computer chose " + computer)
